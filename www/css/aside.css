@@ -1,0 +1,99 @@
+#main {
+	float: left;
+	margin-top: 20px;
+	width: 60%;
+	margin-left: 3%;
+}
+
+aside {
+	float: left;
+	margin-top: 20px;
+	width: 30%;
+	margin-left: 2%;
+}
+
+#courses {
+	float: left;
+	width: 90%;
+}
+
+.bestseller {
+	width: 100%;
+	margin-bottom: 10px;
+	float: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.2em;	
+}
+
+.bestseller>a>img {
+	border: 2px solid #dfdfdf;
+	border-radius: 5px;
+	width: 35%;
+	float: left;	
+	margin-right: 10px;
+}
+
+.bestseller>a>.title_bestseller {
+	color: #646464;
+}
+
+.bestseller>a:hover>.title_bestseller {
+	color: #919191;
+	border-bottom: 1px solid silver;
+}
+
+.bestseller>span {
+	float: right;
+	font-weight: bold;
+	color: rgba(236, 101, 80, 1);
+}
+
+.bestseller>a>span:last-child {
+	float: none;
+}
+
+#bestsellers>a>.btn {
+	float: left;
+	margin-left: 30%;
+}
+
+#one_course {
+	float: left;
+	margin-top: 10px;
+}
+
+#one_course>noindex>a>img {
+	width: 80%;
+	float: left;
+}
+
+.heading {
+	font-weight: lighter;
+	font-size: 1.4em;
+	font-family: 'Roboto Slab', serif;
+	border-bottom: 2px solid #db6e6e;
+	float: left;
+	color: #4f4f4f;
+	padding: 0px 5px;
+}
+
+.heading:first-letter {
+	color: #db6e6e;
+}
+
+#news {
+	float: left;
+	margin-left: 10%;
+	width: 90%;
+}
+
+.block {
+	background-color: #fafafa;	
+	border-radius: 5px;
+	border: 1px solid silver;
+	font-size: 1.1em;
+	color: #3e3e3e;
+	float: left;
+	width: 88%;
+	padding: 3%;
+}

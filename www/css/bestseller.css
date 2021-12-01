@@ -1,0 +1,50 @@
+.bestseller {
+	width: 100%;
+	margin-bottom: 50px;
+	float: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.2em;	
+}
+
+.bestseller>a>img {
+	border: 2px solid #dfdfdf;
+	border-radius: 5px;
+	width: 35%;
+	float: left;	
+	margin-right: 10px;
+}
+
+.bestseller>a>.title_bestseller {
+	color: #030303;
+}
+
+.bestseller>a:hover>.title_bestseller {
+	color: #919191;
+	border-bottom: 1px solid silver;
+}
+
+.bestseller>span {
+	float: right;
+	font-weight: bold;
+	color: rgba(236, 101, 80, 1);
+}
+
+.bestseller>span.bs_text {
+    float: none;
+	font-weight: 400;
+	color: #646464;
+    padding-top: 150px;
+}
+
+#bestsellers>a>.btn {
+	float: left;
+	margin-left: 30%;
+}
+
+.bs_left {
+    float: left;
+}
+
+.bs_right {
+    float: right;
+}
